@@ -1,0 +1,93 @@
+
+/*  slides */
+
+#containerBox {
+    display: flex;
+    justify-content: center;
+    
+}
+#pictures,#picturesTwo,#picturesThree,#picturesFour,#picturesFive,#picturesSix,#picturesSeven,#picturesEight,#picturesNine,#picturesTen {
+    width: 400px;
+    height: 500px;
+}
+.btn {
+    font-family: 'Radio Canada', sans-serif;
+    background-color: black;
+    opacity: 0.6;
+    border: none;
+    color: #968C83;
+    border: 3px solid #FFE3E3 ;
+    font-size: 30px;
+}
+
+/*  slides end */
+
+/* search travel places start  */
+
+body {
+    background-color: rgb(26,26,26);
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    
+}
+h1 {
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 30px;
+}
+.input-container {
+    display: flex;
+}
+
+#search {
+    
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    flex: 1;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.travelPlaces {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+}
+a {
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* search travel places */
+
+
+
+
+
+@media all and (max-width:800px) {
+  
+   
+    #pictures,#picturesTwo,#picturesThree,#picturesFour,#picturesFive,#picturesSix,#picturesSeven,#picturesEight,#picturesNine,#picturesTen {
+        width: 350px;
+    }
+    .btn {
+font-size: 20px;
+    }
+}
+
+@media all and (max-width:500px) {
+    #pictures,#picturesTwo,#picturesThree,#picturesFour,#picturesFive,#picturesSix,#picturesSeven,#picturesEight,#picturesNine,#picturesTen {
+        width: 200px;
+        height: 350px;
+    }
+    .btn {
+font-size: 15px;
+    }
+}
